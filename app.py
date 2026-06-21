@@ -10,7 +10,7 @@ from pydantic.warnings import PydanticDeprecatedSince20
 
 from langchain_groq import ChatGroq
 from langchain.tools import tool
-from langchainhub import hub
+from langchain import hub
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain.agents import create_react_agent, AgentExecutor
 
