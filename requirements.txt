@@ -1,0 +1,14 @@
+ipykernel 
+langgraph 
+langchain
+langchain-community
+langchain-core
+graphviz
+groq
+langchain-groq
+pydantic
+pydantic[email]
+requests
+tavily-python
+langchain==0.1.20
+streamlit
