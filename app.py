@@ -3,7 +3,6 @@ import requests
 import streamlit as st
 import warnings
 
-from dotenv import load_dotenv
 from pydantic.warnings import PydanticDeprecatedSince20
 
 from langchain_groq import ChatGroq
@@ -15,6 +14,7 @@ from langchain.agents import create_react_agent, AgentExecutor
 # ---------------------------
 # LOAD ENV VARIABLES
 # ---------------------------
+from dotenv import load_dotenv
 load_dotenv()
 
 GROQ = os.getenv("GROQ_API_KEY")
