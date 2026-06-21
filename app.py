@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 import requests
 import streamlit as st
@@ -10,12 +13,6 @@ from langchain.tools import tool
 from langchain import hub
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain.agents import create_react_agent, AgentExecutor
-
-# ---------------------------
-# LOAD ENV VARIABLES
-# ---------------------------
-from dotenv import load_dotenv
-load_dotenv()
 
 GROQ = os.getenv("GROQ_API_KEY")
 WEATHER = os.getenv("WEATHERSTACK_API_KEY")
