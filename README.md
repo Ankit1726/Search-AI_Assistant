@@ -94,7 +94,7 @@ Deployed on Render and accessible through the live application link above.
 
 ---
 
-## 👨‍💻**Author: Ankit Gupta**
+### 👨‍💻**Author: Ankit Gupta**
 AI/ML Engineer | Python Developer | Generative AI Enthusiast
 
 ---
